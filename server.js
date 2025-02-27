@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // ✅ Update CORS settings
-app.use(cors({ origin: ["http://localhost:5173", "http://localhost:3000"] }));
+app.use(cors({ origin: ["http://localhost:5173", "http://localhost:3000","https://my-website-portfolio-ochre.vercel.app"] }));
 
 app.use(express.json());
 
